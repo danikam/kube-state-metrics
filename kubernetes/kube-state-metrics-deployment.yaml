@@ -17,7 +17,7 @@ spec:
     spec:
       serviceAccountName: kube-state-metrics
       nodeSelector:
-        kubernetes.io/hostname: node4
+        kubernetes.io/hostname: node3
       tolerations:
       - key: "key"
         operator: "Equal"
